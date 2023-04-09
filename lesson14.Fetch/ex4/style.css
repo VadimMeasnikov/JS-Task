@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(255, 0, 0);
+}
+.found-block{
+    margin-left: 50px;
+}
+.name{
+    border-radius: 0px;
+    height: 20px;
+    border: none;
+}
+.search{
+    border-radius: 0px;
+    height: 23px;
+    border: none;
+    margin-left: 20px;
+}
+.search:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+.main{
+    height: 60%;
+    background-color: grey;
+}
+.recomendation{
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+}
+.video-block{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.video{
+    margin-left: 50px;
+    width: 560px;
+    height: 315px;
+}

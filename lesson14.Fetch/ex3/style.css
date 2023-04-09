@@ -1,0 +1,17 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: gray;
+    margin: 100px;
+    height: 300px;
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.heading{
+    text-align: center;
+}
